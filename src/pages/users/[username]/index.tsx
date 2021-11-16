@@ -36,7 +36,7 @@ const propsFactory = (injects?: Partial<StaticProps>) => ({
     generatedAt: now(),
     ...injects,
   },
-  //revalidate: 10,
+  revalidate: 10,
 });
 // ___________________________________________________________________________
 //
